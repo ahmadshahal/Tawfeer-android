@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">توفير</string>
+    <string name="could_not_reach_remote_server">تعذر الوصول إلى الخادم البعيد</string>
+    <string name="welcome_to_tawfeer">مرحبًا بك في توفير</string>
+    <string name="spend_your_money_wisely">انفق أموالك بحكمة!</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="password">كلمة المرور</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="don_t_have_an_account">ليس لديك حساب؟</string>
+    <string name="register">تسجيل</string>
+    <string name="username_can_t_be_empty">لا يمكن أن يكون اسم المستخدم فارغًا</string>
+    <string name="password_can_t_be_empty">لا يمكن أن تكون كلمة المرور فارغة</string>
+    <string name="try_again">حاول مرة أخرى</string>
+    <string name="search">بحث</string>
+    <string name="cart">سلة</string>
+    <string name="products">المنتجات</string>
+    <string name="settings">الإعدادات</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="english">الإنجليزية</string>
+    <string name="arabic">العربية</string>
+    <string name="preferred_theme">السمة المفضلة</string>
+    <string name="preferred_language">اللغة المفضلة</string>
+    <string name="are_you_sure_to_logout">هل أنت متأكد من تسجيل الخروج؟</string>
+    <string name="sure">متأكد</string>
+    <string name="cancel">تراجع</string>
+    <string name="add_to_cart">إضافة إلى السلة</string>
+    <string name="in_cart">in Cart</string>
+    <string name="checkout">تشيك اوت</string>
+    <string name="total">الصافي:</string>
+    <string name="total_with_discount">الصافي مع الحسم:</string>
+    <string name="product_removed_from_cart">تمت إزالة المنتج</string>
+    <string name="undo">تراجع</string>
+    <string name="checked_out_successfully">Checked out successfully</string>
+</resources>

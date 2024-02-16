@@ -1,0 +1,42 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Tawfeer" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="fontFamily">@font/cairo_font_family</item>
+        <item name="android:fontFamily">@font/saira_font_family</item>
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorSecondary">@color/dark_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSurface">@color/black</item>
+        <item name="colorOnSurfaceVariant">@color/black</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorPrimaryDark">@color/dark_blue</item>
+        <item name="colorAccent">@color/dark_blue</item>
+        <item name="android:statusBarColor">@color/dark_blue</item>
+        <item name="android:textColorSecondary">@color/green</item>
+        <item name="android:navigationBarColor">@color/white</item>
+    </style>
+
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/mid_green</item>
+    </style>
+
+    <style name="AppTheme.Picker" parent="Theme.AppCompat.Light.NoActionBar" >
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="fontFamily">@font/cairo_font_family</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Theme.Tawfeer" parent="Base.Theme.Tawfeer" />
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#FFFF</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/tawfeer_splash</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.Tawfeer</item>
+    </style>
+
+    <style name="RoundCorners">
+        <item name="cornerSize">7dp</item>
+    </style>
+</resources>

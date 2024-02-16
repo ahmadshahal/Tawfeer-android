@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/LoginFragment">
+
+    <fragment
+        android:id="@+id/LoginFragment"
+        android:name="com.kotlinHero.tawfeer.auth.ui.fragments.LoginFragment"
+        android:label="LoginFragment"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_LoginFragment_to_ProductsFragment"
+            app:destination="@id/ProductsFragment"
+            app:popUpTo="@id/LoginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <action
+        android:id="@+id/action_to_LoginFragment"
+        app:destination="@id/LoginFragment"
+        app:popUpTo="@id/nav_graph"
+        app:popUpToInclusive="false" />
+
+    <fragment
+        android:id="@+id/ProductsFragment"
+        android:name="com.kotlinHero.tawfeer.products.ui.fragments.ProductsFragment"
+        android:label="ProductsFragment"
+        tools:layout="@layout/fragment_products">
+        <action
+            android:id="@+id/action_ProductsFragment_to_ProductDetailsFragment"
+            app:destination="@id/ProductDetailsFragment">
+            <argument
+                android:name="productId"
+                app:argType="integer"
+                android:defaultValue="0" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/ProductDetailsFragment"
+        android:name="com.kotlinHero.tawfeer.products.ui.fragments.ProductDetailsFragment"
+        android:label="ProductDetailsFragment"
+        tools:layout="@layout/fragment_product_details">
+        <argument
+            android:name="productId"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/SettingsFragment"
+        android:name="com.kotlinHero.tawfeer.settings.ui.SettingsFragment"
+        android:label="SettingsFragment"
+        tools:layout="@layout/fragment_settings">
+    </fragment>
+
+    <fragment
+        android:id="@+id/CartFragment"
+        android:name="com.kotlinHero.tawfeer.products.ui.fragments.CartFragment"
+        android:label="CartFragment"
+        tools:layout="@layout/fragment_cart">
+    </fragment>
+
+</navigation>

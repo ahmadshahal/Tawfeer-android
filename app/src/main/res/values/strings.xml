@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Tawfeer</string>
+    <string name="could_not_reach_remote_server">Couldn\'t reach remote server</string>
+    <string name="welcome_to_tawfeer">Welcome to Tawfeer</string>
+    <string name="spend_your_money_wisely">Spend your money wisely!</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="register">Register</string>
+    <string name="username_can_t_be_empty">Username can\'t be empty</string>
+    <string name="password_can_t_be_empty">Password can\'t be empty</string>
+    <string name="try_again">Try Again</string>
+    <string name="search">Search</string>
+    <string name="cart">Cart</string>
+    <string name="products">Products</string>
+    <string name="settings">Settings</string>
+    <string name="retry">Retry</string>
+    <string name="logout">Logout</string>
+    <string name="english">English</string>
+    <string name="arabic">Arabic</string>
+    <string name="preferred_theme">Preferred Theme</string>
+    <string name="preferred_language">Preferred Language</string>
+    <string name="are_you_sure_to_logout">Are you sure to logout?</string>
+    <string name="sure">Sure</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="in_cart">in Cart</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="checkout">Checkout</string>
+    <string name="total">Total:</string>
+    <string name="total_with_discount">Total with discount:</string>
+    <string name="product_removed_from_cart">Product removed from cart</string>
+    <string name="undo">Undo</string>
+    <string name="checked_out_successfully">Checked out successfully</string>
+</resources>
